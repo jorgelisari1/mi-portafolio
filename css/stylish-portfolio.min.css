@@ -1,8 +1,47 @@
+
+.movie{
+  display: flex;
+  width: 600px;
+  height: 40px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.spa{
+  margin: 0;
+  list-style: none;
+padding-left: 10px;
+animation: cambiar 7s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
+
+@keyframes cambiar {
+  0%{margin-top: 0%;}
+  20%{margin-top: 0%;}
+  25%{margin-top: -40%;}
+ 
+}
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
+ 
+svg{font-weight:bold;max-width:600px;height:auto;}
+svg{font-weight:bold;max-width:600px;height:auto;}
+ 
 body,html {
   width: 100%;
   height: 100%;
@@ -15,17 +54,20 @@ body {
 }
 .content-section {
   padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-bottom: 3.5rem;
 }
 .content-section-heading h2 {
   font-size: 3rem;
 }
 .content-section-heading h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
+}
+h4 {
+  margin-bottom: 4.5rem;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -238,7 +280,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
+  padding-top: 0rem;
   padding-bottom: 5rem;
 }
 footer.footer .social-link {
@@ -309,3 +351,29 @@ a:active,a:focus,a:hover {
     width: 100%;
     height: 309px;
 }
+
+.sizeSkill {
+  width: 50%;
+  }
+  .habili-tec {
+    height: 65px;
+    width: 70px;
+    display: block;
+    margin: auto;
+  }
+  .ht-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+    color: #1e1e1e;
+    font-family: inherit;
+  }
+  #services .service-item:hover .service-icon, #services1 .service-item:hover .service-icon {
+    background: #fff;
+  }
+  
+  #services .service-item:hover .service-icon i, #services1 .service-item:hover .service-icon i {
+    color: #03C4EB;
+  }
