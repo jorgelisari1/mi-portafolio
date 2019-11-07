@@ -21,7 +21,7 @@
   list-style: none;
 padding-left: 10px;
 animation: cambiar 7s;
-animation-delay: 1s;
+animation-delay: 2s;
 animation-fill-mode: forwards;
 /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 
