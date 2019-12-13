@@ -75,6 +75,13 @@ h4 {
 .map {
   height: 30rem;
 }
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+ 
+}
 @media (max-width: 992px) {
   .map {
          height: 75%;
