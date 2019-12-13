@@ -20,9 +20,9 @@
   margin: 0;
   list-style: none;
 padding-left: 10px;
-animation: cambiar 7s;
+animation: cambiar 5s;
 animation-delay: 2s;
-animation-fill-mode: forwards;
+animation-fill-mode: both, forwards, none;
 /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 
 }
